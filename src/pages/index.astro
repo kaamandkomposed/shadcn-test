@@ -9,21 +9,21 @@ import Nav from '@/components/Nav.astro';
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<div class="m-5">
-			<!-- <Nav> -->
+	<div class="flex flex-col gap-2 justify-between my-5">
+		<!-- <Nav> -->
 			<h1>Welcome to Astro</h1>
 			<p class="instructions">
 				To get started, open the directory <code>src/pages</code> in your project.<br />
 				<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-				<Button>Hello World</Button>
 			</p>
-			<ul role="list" class="">
-				<Card 
-				title='Card Title', 
-				description='Description', 
-				content='Content', 
-				footer='Footer'>
-			</ul>
 		</div>
+		<Button>Hello World</Button>
+		<ul role="list" class="">
+			<Card 
+			title='Card Title', 
+			description='Description', 
+			content='Content', 
+			footer='Footer'>
+			</ul>
 	</main>
 </Layout>

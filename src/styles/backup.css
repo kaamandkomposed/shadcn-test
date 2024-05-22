@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -75,11 +75,7 @@
   }
 }
 
-.hidden {
-  display: none;
-}
-
 h1 {
   font-size: x-large;
   font-weight: bold;
-}
+} */

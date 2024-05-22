@@ -1,4 +1,7 @@
 ---
+import Nav from '@/components/Nav.astro';
+import Fonts from '@/components/Fonts.astro'
+
 interface Props {
 	title: string;
 }
@@ -14,9 +17,13 @@ const { title } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		<Fonts></Fonts>
 		<title>{title}</title>
 	</head>
 	<body>
-		<slot />
+		<Nav></Nav>
+		<div class="m-10">
+			<slot />
+		</div>
 	</body>
 </html>

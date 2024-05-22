@@ -1,0 +1,62 @@
+---
+import { AstroFont } from "astro-font";
+---
+
+<!-- GOOGLE FONTS -->
+
+<AstroFont
+    config={[
+    {
+        name: "Afacad",
+        src: [
+        {
+            style: 'bold',
+            weight: '700',
+            path: 'https://fonts.gstatic.com/s/afacad/v1/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfvLqagk-80KjZfJ_uw.woff2'
+        },
+        ],
+        preload: true,
+        display: "swap",
+        selector: "body",
+        fallback: "sans-serif",
+    },
+    ]}
+/>
+
+
+<!-- LOCAL FONTS -->
+
+<!-- <head>
+    <AstroFont
+      config={[
+        {
+          name: "Afacad",
+          src: [
+            {
+              style: 'bold',
+              weight: '700',
+              path: 'https://fonts.gstatic.com/s/afacad/v1/6NUK8FKMIQOGaw6wjYT7ZHG_zsBBfvLqagk-80KjZfJ_uw.woff2'
+            },
+          ],
+          preload: true,
+          display: "swap",
+          selector: "body",
+          fallback: "sans-serif",
+        },
+        {
+          name: "Inter",
+          src: [
+            {
+              weight: '400',
+              style: 'normal',
+              path: './public/fonts/Inter-Regular.woff2'
+            }
+          ],
+          preload: true,
+          display: "swap",
+          selector: "body > span",
+          fallback: "serif",
+        },
+      ]}
+    />
+</head> -->
