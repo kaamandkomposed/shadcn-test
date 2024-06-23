@@ -22,6 +22,7 @@
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
     "astro": "4.11.0",
+    "astro-auto-import": "^0.4.2",
     "astro-font": "^0.0.81",
     "astro-navbar": "^2.3.2",
     "class-variance-authority": "^0.7.0",
@@ -33,5 +34,8 @@
     "tailwindcss": "^3.4.3",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@vite-pwa/astro": "^0.4.0"
   }
 }
