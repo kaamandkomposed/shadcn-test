@@ -3,16 +3,15 @@ import { Astronav, MenuItems, MenuIcon,  Dropdown, DropdownItems } from "astro-n
 ---
 
 <header class="lg:flex p-5  gap-5">
+    <div class="flex justify-between w-full">
   <Astronav>
-    <div class="flex w-full justify-between">
       <a class="text-lg font-semibold">Your Logo</a>
       <div class="block lg:hidden">
         <MenuIcon class="w-4 h-4 text-gray-800" />
       </div>
-    </div>
     <MenuItems class="hidden lg:flex">
       <ul class="flex flex-col lg:flex-row lg:gap-5">
-        <li>Home</li>
+        <li><a href="/dailyView">Daily View</a></li>
         <li>About</li>
         <li>
           <Dropdown class="group">
@@ -45,4 +44,5 @@ import { Astronav, MenuItems, MenuIcon,  Dropdown, DropdownItems } from "astro-n
       </ul>
     </MenuItems>
   </Astronav>
+    </div>
 </header>
